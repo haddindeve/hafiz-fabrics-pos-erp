@@ -1,0 +1,39 @@
+# Hafiz Fabrics - Retail POS and ERP
+
+> Point-of-sale and stock system for a fabric retailer, built on React, TypeScript and Supabase.
+
+Author: Muhammad Tanveer (Full-Stack AI Automation Engineer)
+Contact: mtanveertahir66@gmail.com | https://www.linkedin.com/in/muhammad-tanveer-advenno/
+Repository: https://github.com/haddindeve/hafiz-fabrics-pos-erp
+Source availability: implementation held in a private repository; access on request.
+
+## Summary
+A fabric retailer tracked sales and stock on paper. Reconciling what sold against what remained meant counting, and pricing decisions were made without knowing actual margin per item.
+
+A browser-based POS backed by Supabase, so the shop needs no server of its own. The schema is designed for fabric retail specifically - stock measured by length, priced per unit - rather than adapting a generic product-and-quantity model that does not fit how the goods are sold.
+
+## Stack
+Frontend: React, TypeScript, Vite, Styling: Tailwind CSS, Backend: Supabase (PostgreSQL), Deployment: Static hosting
+
+## Capabilities
+- Point-of-sale checkout
+- Length-based fabric inventory
+- Sales and margin reporting
+- Managed Postgres backend with no server to maintain
+
+## Outcomes
+- Paper records replaced by live stock and sales figures
+- Margin visible per item at the point of pricing
+
+## FAQ
+Q: Why Supabase?
+A: It provides Postgres, auth and an API without the shop needing to run or maintain a server.
+
+Q: How is fabric stock handled?
+A: Stock is tracked by length rather than unit count, matching how fabric is actually bought and sold.
+
+Q: Does it work on existing hardware?
+A: It runs in the browser, so any reasonably modern machine or tablet works.
+
+Q: Is the source public?
+A: Private repository; access on request.
